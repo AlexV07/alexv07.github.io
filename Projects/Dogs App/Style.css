@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #99582a;
+    background-color: #f1e0c5;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    border: 5px solid #342a21;
+    margin: 10px 0px;
+    background-color: #c9b79c;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+li{
+    border: 0px solid green;
+    padding: 15px 30px;
+    list-style: none;
+}
+select{
+    background-color: #f1e0c5;
+    border: solid 1px #342a21;
+
+}
+.dog_img{
+    max-width: 500px;
+    max-height: 500px;
+    display: none;
+    margin: 0;
+    border: #342a21 solid 1px
+}
+.dog_icon{
+    width: 80px;
+    border: solid 5px #D95B35;
+    border-radius: 50px; 
+    display: none;
+}
+.active{
+    display: block;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: solid red 0px;
+    margin: 10px;
+}
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+.spin {
+    animation: spin 1s ease-in-out infinite;
+}
+
+button{
+    background-color: #c9b79c;
+    border: #342a21 2.5px solid;
+    font-size: medium;
+    font-weight: 600;
+    color: #99582a;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #dac9ae;
+}
+button:active{
+    background-color: #99582a;
+    color: black;
+}
+

@@ -1,0 +1,189 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f3f3f4;
+}
+h1{
+    font-family: 'raleway';
+    text-align: center;
+    padding-top: 15px;
+}
+h2, h3, p, li, a{
+    font-family: 'lato';
+}
+p{
+    line-height: 1.5;
+}
+nav{
+    margin: 0;
+}
+nav ul{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #7e7f83;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+
+}
+nav li{
+    margin: .5rem 3rem .5rem 0;
+    
+}
+nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'raleway';
+    color: white;
+
+    
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+    
+}
+.center{
+    text-align: center;
+}
+.half{
+    width: 50%;
+    border: solid 0px red;
+
+}
+.vertical{
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0 0 0;
+}
+.width120{
+    width: 120px;
+}
+
+.lenguages{
+    text-align: right;
+}
+.container{
+    margin-left: 10px;
+    width: 400px;
+    background-color: #d6d6d6;
+    border-radius: 20px;
+}
+.spanish{
+    background-color: #34312d;
+    padding: 8px 0;
+    width: 100%;
+    border-radius: 20px;
+}
+.english{
+    background-color: #34312d;
+    padding: 8px 0;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.german{
+    background-color: #34312d;
+    padding: 8px 0;
+    width: 40%;
+    border-radius: 20px;
+}
+.Summary{
+    width: 75%;
+    padding: 0 20% 0 0;
+}
+.SoftSkills{
+    width: 25%;
+}
+.Skills, .projectsbg{
+    background-color: #a4907d;
+    padding: 20px 0 40px 0;
+    margin: 40px 0 0 0;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.projects img{
+    max-height: 100px;
+}
+.projects a{
+    text-decoration: none;
+    font-family: 'raleway';
+    color: white;
+    margin-top: 10px;
+}
+.projects a:hover, .Contact a:hover{
+    color: #34312d;
+}
+.column{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contactbg{
+    background-color: #7e7f83;
+    color: white;
+    padding: 40px 0 ;
+}
+.Contactbg h2{
+    margin: 0 0 20px 0;
+}
+.Contact img {
+    max-height: 25px;
+    margin: 0px 5px;
+}
+.Contact a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'raleway';
+}
+
+/*SmallScreens*/
+@media only screen and (max-width: 600px) {
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Summary{
+        width: 100%;
+    }
+    .SoftSkills{
+        width: 100%;
+    }
+    .flex{
+        display: block;
+    }
+    .container{
+        width: 200px;
+    }
+    .half{
+        width: 100%;
+    }
+    
+    .Phone{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+  }
